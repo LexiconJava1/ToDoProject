@@ -2,7 +2,7 @@ package toDoListExample;
 
 import java.util.Date;
 
-public class TodoItems {	
+public class TodoItem {	
 	
 	private String itemName;
 	private Date startDate;
@@ -10,7 +10,7 @@ public class TodoItems {
 	private String desc;
 	private String status;
 	
-	public TodoItems(String itemName,Date startDate,Date expiredDate,String desc,String status){
+	public TodoItem(String itemName,Date startDate,Date expiredDate,String desc,String status){
 		this.itemName = itemName;
 		this.startDate = startDate;
 		this.expiredDate = expiredDate;
