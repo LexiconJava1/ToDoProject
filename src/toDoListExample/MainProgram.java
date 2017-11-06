@@ -75,7 +75,7 @@ public class MainProgram {
 		String startDate = scanner.next();
 		Date stDate= DateUtil.stringToDate(startDate);
 		
-		System.out.println("Enter expired date(ex: 10-Feb-2017):\n");
+		System.out.println("Enter end date(ex: 10-Feb-2017):\n");
 		String expiredDate = scanner.next();
 		Date exDate=  DateUtil.stringToDate(expiredDate);
 		
@@ -144,7 +144,7 @@ public class MainProgram {
 				    	 System.out.println("Enter start date(dd-mm-yyyy) format:\n");
 				 		 String startDate = scanner.next();
 				 		 Date stDate=  DateUtil.stringToDate(startDate);
-				 		 System.out.println("Enter expired date(dd-mm-yyyy) format:\n");
+				 		 System.out.println("Enter end date(dd-mm-yyyy) format:\n");
 				 		 String expiredDate = scanner.next();
 				 		 Date exDate= DateUtil.stringToDate(expiredDate);
 				 		 System.out.println("Enter description:");
@@ -269,7 +269,7 @@ public class MainProgram {
 					 System.out.println("Description:"+item.getDesc());                 
 					 System.out.println("Status:"+item.getStatus()); 
 					 System.out.println("Start Date:"+DateUtil.dateToString(item.getStartDate())); 
-					 System.out.println("Expired Date:"+DateUtil.dateToString(item.getExpiredDate())); 
+					 System.out.println("End Date:"+DateUtil.dateToString(item.getExpiredDate())); 
 			     }
 			}
 		} else {
@@ -290,7 +290,7 @@ public class MainProgram {
 					 System.out.println("Description:"+item.getDesc());                 
 					 System.out.println("Status:"+item.getStatus()); 
 					 System.out.println("Start Date:"+DateUtil.dateToString(item.getStartDate())); 
-					 System.out.println("Expired Date:"+DateUtil.dateToString(item.getExpiredDate())); 
+					 System.out.println("End Date:"+DateUtil.dateToString(item.getExpiredDate())); 
  					 System.out.println("********************\n");
 
 			     }
